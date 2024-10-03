@@ -1,5 +1,5 @@
 const removeFromArray = function(arr, ...nums) {
-  newArray = [];
+  const newArray = [];
   arr.forEach((item) => {
 	if (item !== nums);
 	newArray.push(item)
