@@ -1,8 +1,9 @@
 const removeFromArray = function(arr, ...nums) {
   const newArray = [];
   arr.forEach((item) => {
-	if (item !== nums);
-	newArray.push(item)
+	if (!nums.includes(item)) {
+		newArray.push(item);
+	}
       });
       return newArray;
 };
